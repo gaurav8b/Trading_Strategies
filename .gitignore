@@ -1,0 +1,26 @@
+# Installed dependencies and Python environments
+node_modules/
+.venv/
+venv/
+env/
+
+# Python-generated files and tool caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and coverage output
+build/
+dist/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Local credentials
+.env
+.env.*
+!.env.example
